@@ -10,7 +10,8 @@ module.exports = {
   },
   module:{
 	rules: [
-	  {
+	  { test: require.resolve("jquery"), loader: "expose-loader?$!expose-loader?jQuery" },
+      {
 	    test: /\.css$/,
 	    use: [ 'style-loader', 'css-loader' ]
 	  },
