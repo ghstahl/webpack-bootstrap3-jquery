@@ -1,4 +1,4 @@
-# webpack-bootstrap3-jquery
+# webpack2-bootstrap3-jquery3
 A bundle of only jquery3 and bootstrap3
 
 exposes $
